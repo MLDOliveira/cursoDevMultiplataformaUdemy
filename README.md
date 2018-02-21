@@ -1,8 +1,18 @@
 # curso_dev_multiplataforma
 Curso de desenvolvimento multiplataforma com React Native + Redux
 
+Passos de instalação
+- Instalação do JDK 8
+- Instalação do Python 2.7
+- Instalação do NodeJS + NPM
+- Instalação do Android Studio
+- Instalação do React Native CLI (npm install -g react-native-cli)
+- Atualizar SDK do Android
+- Configuração das variáveis de ambiente
+- Criação do projeto react-native init --version="0.44.0" <nome_do_app>
 
---Versão do React Native
+---------------------------
+Versão do React Native
 Atualmente o React Native está na versão 0.49 porém nesse curso iremos utilizar a versão 0.44.
 Recomendo fortemente que você utilize a versão 0.44 ao longo desse treinamento para otimizar sua experiência no curso.
 Ao término do curso você estará apto a atualizar seus projetos para versão 0.49 já que terá um conhecimento mais amplo e consistente do framework.
@@ -12,7 +22,7 @@ Ao iniciar os seus projetos utilize a flag --version  informando o parâmetro"0.
 react-native init --version="0.44.0" <nome_do_app> 
 Qualquer dúvida favor relatar no fórum.
 
-----
+---------------------------
 
 To run your app on iOS:
    cd D:\GitHub\curso_dev_multiplataforma\APP01\teste
