@@ -1,5 +1,5 @@
 # curso_dev_multiplataforma
-Curso de desenvolvimento multiplataforma com React Native + Redux
+Curso de desenvolvimento multiplataforma com React Native + Redux (Udemy-https://www.udemy.com/desenvolvedor-multiplataforma-androidios-com-react-e-redux)
 
 Passos de instalação
 - Instalação do JDK 8
@@ -11,18 +11,12 @@ Passos de instalação
 - Configuração das variáveis de ambiente
 - Criação do projeto react-native init --version="0.44.0" <nome_do_app>
 
----------------------------
-Versão do React Native
-Atualmente o React Native está na versão 0.49 porém nesse curso iremos utilizar a versão 0.44.
-Recomendo fortemente que você utilize a versão 0.44 ao longo desse treinamento para otimizar sua experiência no curso.
-Ao término do curso você estará apto a atualizar seus projetos para versão 0.49 já que terá um conhecimento mais amplo e consistente do framework.
+---------------------------------------------------------------------------------
 
-Como utilizar a versão 0.44 do framework (dica para próxima aula):
-Ao iniciar os seus projetos utilize a flag --version  informando o parâmetro"0.44.0"  para setar a versão do framework a ser utilizado. O Comando completo pode ser visto abaixo:
+Durante o curso deve-se utilizar a versão do react-native 0.44, então para criar alguma aplicação deve usar o comando abaixo
 react-native init --version="0.44.0" <nome_do_app> 
-Qualquer dúvida favor relatar no fórum.
 
----------------------------
+---------------------------------------------------------------------------------
 
 To run your app on iOS:
    cd D:\GitHub\curso_dev_multiplataforma\APP01\teste
@@ -35,7 +29,8 @@ To run your app on Android:
    Have an Android emulator running (quickest way to get started), or a device connected
    react-native run-android
    
-------- Comandos ADB
+---------------------------------------------------------------------------------
+Comandos ADB
 - adb devices - lista os aparelhos que estão sendo reconhecidos
 - gradlew assembledebug - gera o APK 
 - react-native start
@@ -43,3 +38,5 @@ To run your app on Android:
 - adb install app-debuk.apk 
 - adb shell input keyevent 46 46 (46 é igual a tecla R)
 - adb shell input keyevent 82 (82 é igual a tecla de menu)
+
+---------------------------------------------------------------------------------
