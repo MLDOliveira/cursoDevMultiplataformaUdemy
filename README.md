@@ -1,4 +1,4 @@
-# Curso de desenvolvimento multiplataforma com React Native + Redux
+# Curso de Desenvolvimento Multiplataforma com React Native + Redux
 Udemy - https://www.udemy.com/desenvolvedor-multiplataforma-androidios-com-react-e-redux
 
 Passos de instalação
@@ -18,16 +18,17 @@ react-native init --version="0.44.0" <nome_do_app>
 
 ---------------------------------------------------------------------------------
 
-To run your app on iOS:
-   cd D:\GitHub\curso_dev_multiplataforma\APP01\teste
-   react-native run-ios
-   - or -
-   Open ios\teste.xcodeproj in Xcode
-   Hit the Run button
-To run your app on Android:
-   cd D:\GitHub\curso_dev_multiplataforma\APP01\teste
-   Have an Android emulator running (quickest way to get started), or a device connected
-   react-native run-android
+Rodar APP no iOS:
+- cd <diretorio do projeto>
+- react-native run-ios
+OU
+- Open ios\teste.xcodeproj in Xcode
+- Hit the Run button
+
+Rodar APP no Android:
+- cd <diretorio do projeto>
+- Have an Android emulator running (quickest way to get started), or a device connected
+- react-native run-android
    
 ---------------------------------------------------------------------------------
 Comandos ADB
