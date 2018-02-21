@@ -24,3 +24,12 @@ To run your app on Android:
    cd D:\GitHub\curso_dev_multiplataforma\APP01\teste
    Have an Android emulator running (quickest way to get started), or a device connected
    react-native run-android
+   
+------- Comandos ADB
+- adb devices - lista os aparelhos que estão sendo reconhecidos
+- gradlew assembledebug - gera o APK 
+- react-native start
+- adb reverse tcp:8081 tcp:8081
+- adb install app-debuk.apk 
+- adb shell input keyevent 46 46 (46 é igual a tecla R)
+- adb shell input keyevent 82 (82 é igual a tecla de menu)
