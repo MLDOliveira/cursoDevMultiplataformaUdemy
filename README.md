@@ -1,5 +1,5 @@
-# curso_dev_multiplataforma
-Curso de desenvolvimento multiplataforma com React Native + Redux (Udemy-https://www.udemy.com/desenvolvedor-multiplataforma-androidios-com-react-e-redux)
+# Curso de desenvolvimento multiplataforma com React Native + Redux
+Udemy - https://www.udemy.com/desenvolvedor-multiplataforma-androidios-com-react-e-redux
 
 Passos de instalação
 - Instalação do JDK 8
