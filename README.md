@@ -10,6 +10,7 @@ Passos de instalação
 - Atualizar SDK do Android
 - Configuração das variáveis de ambiente
 - Criação do projeto react-native init --version="0.44.0" <nome_do_app>
+- Instalando ESLINT | npm install --save-dev eslint-config-rallycoding
 
 ---------------------------------------------------------------------------------
 
@@ -19,14 +20,14 @@ react-native init --version="0.44.0" <nome_do_app>
 ---------------------------------------------------------------------------------
 
 Rodar APP no iOS:
-- cd <diretorio do projeto>
+- cd "diretorio do projeto"
 - react-native run-ios
 OU
 - Open ios\teste.xcodeproj in Xcode
 - Hit the Run button
 
 Rodar APP no Android:
-- cd <diretorio do projeto>
+- cd "diretorio do projeto"
 - Have an Android emulator running (quickest way to get started), or a device connected
 - react-native run-android
    
