@@ -11,6 +11,9 @@ Passos de instalação
 - Configuração das variáveis de ambiente
 - Criação do projeto react-native init --version="0.44.0" <nome_do_app>
 - Instalando ESLINT | npm install --save-dev eslint-config-rallycoding
+- Instalando babel | npm install --save-dev babel-present-es2015
+- Instalando babel react | npm install --save-dev babel-preset-react
+- Instalando Axios | npm install --save axios
 
 ---------------------------------------------------------------------------------
 
