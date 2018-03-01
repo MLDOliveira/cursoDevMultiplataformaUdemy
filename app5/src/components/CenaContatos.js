@@ -14,12 +14,12 @@ const detalheContatos = require('../imgs/detalhe_contato.png');
 export default class CenaContatos extends Component {
   render() {
     return (
-        <View>
+        <View style={{ flex: 1, backgroundColor: '#FFF' }}>
             <StatusBar 
-                backgroundColor='#CCC'
+                backgroundColor='#61DB8C'
             />
             
-            <BarraNavegacao voltar navigator={this.props.navigator} />
+            <BarraNavegacao voltar navigator={this.props.navigator} corDeFundo='#61DB8C' />
 
             <View style={styles.cabecalho} >
                 <Image source={detalheContatos} />

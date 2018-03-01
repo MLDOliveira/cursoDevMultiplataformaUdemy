@@ -14,11 +14,8 @@ Passos de instalação
 - Instalando babel | npm install --save-dev babel-present-es2015
 - Instalando babel react | npm install --save-dev babel-preset-react
 - Instalando Axios | npm install --save axios
-
----------------------------------------------------------------------------------
-
-Durante o curso deve-se utilizar a versão do react-native 0.44, então para criar alguma aplicação deve usar o comando abaixo
-react-native init --version="0.44.0" <nome_do_app> 
+- Durante o curso deve-se utilizar a versão do react-native 0.44, - react-native init --version="0.44.0" <nome_do_app> 
+- Instalando Router Flux - npm install --save react-native-router-flux@3.38.0
 
 ---------------------------------------------------------------------------------
 
