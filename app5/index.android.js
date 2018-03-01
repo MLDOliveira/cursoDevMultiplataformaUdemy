@@ -1,23 +1,41 @@
 import React, { Component } from 'react';
 import {
-  AppRegistry,
-  StatusBar,
-  View
+  AppRegistry
 } from 'react-native';
 
-//Importar o compomente barra de navegação
-import BarraNavegacao from './src/components/BarraNavegacao';
+import { Navigator } from 'react-native-deprecated-custom-components';
+
+import CenaPrincipal from './src/components/CenaPrincipal';
+import CenaClientes from './src/components/CenaClientes';
+import CenaContatos from './src/components/CenaContatos';
+import CenaEmpresa from './src/components/CenaEmpresa';
+import CenaServicos from './src/components/CenaServicos';
+
 
 export default class app5 extends Component {
   render() {
     return (
-     <View>
-        <StatusBar 
-          //hidden
-          backgroundColor='#CCC'
-        />
-        <BarraNavegacao />
-     </View>
+      //<CenaPrincipal />
+      //<CenaClientes />
+      <Navigator 
+        initialRoute={{ id: 'principal' }}
+        renderScene={(route, navigator) => {
+          switch (route.id) {
+            case 'principal':
+              return (<CenaPrincipal navigator={navigator} />);
+            case 'clientes': 
+              return (<CenaClientes navigator={navigator} />);
+            case 'contatos':
+              return (<CenaContatos navigator={navigator} />);
+            case 'empresa':
+              return (<CenaEmpresa navigator={navigator} />);
+            case 'servicos':
+              return (<CenaServicos navigator={navigator} />);
+            default:
+              return false;
+          }
+        }}
+      />
     );
   }
 }
