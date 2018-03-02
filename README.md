@@ -4,7 +4,7 @@
 
 # VERSÃO EM PORTUGUÊS
 
-# Curso de Desenvolvimento Multiplataforma com React Native + Redux
+Curso de Desenvolvimento Multiplataforma com React Native + Redux
 Udemy - https://www.udemy.com/desenvolvedor-multiplataforma-androidios-com-react-e-redux
 
 Passos de instalação
