@@ -5,9 +5,10 @@
 # VERSÃO EM PORTUGUÊS
 
 Curso de Desenvolvimento Multiplataforma com React Native + Redux
-Udemy - https://www.udemy.com/desenvolvedor-multiplataforma-androidios-com-react-e-redux
 
-Passos de instalação
+Link do curso - https://www.udemy.com/desenvolvedor-multiplataforma-androidios-com-react-e-redux
+
+Passos de instalação:
 - Instalação do JDK 8
 - Instalação do Python 2.7
 - Instalação do NodeJS + NPM
@@ -24,46 +25,10 @@ Passos de instalação
 - Instalando Router Flux - npm install --save react-native-router-flux@3.38.0
 
 ---------------------------------------------------------------------------------
-
-Rodar APP no iOS:
-- cd "diretorio do projeto"
-- react-native run-ios
-OU
-- Open ios\teste.xcodeproj in Xcode
-- Hit the Run button
-
-Rodar APP no Android:
-- cd "diretorio do projeto"
-- Have an Android emulator running (quickest way to get started), or a device connected
-- react-native run-android
-
-YARN
-  yarn start
-    Starts the development server so you can open your app in the Expo
-    app on your phone.
-
-  yarn run ios
-    (Mac only, requires Xcode)
-    Starts the development server and loads your app in an iOS simulator.
-
-  yarn run android
-    (Requires Android build tools)
-    Starts the development server and loads your app on a connected Android
-    device or emulator.
-
-  yarn test
-    Starts the test runner.
-
-  yarn run eject
-    Removes this tool and copies build dependencies, configuration files
-    and scripts into the app directory. If you do this, you can't go back!
-
-We suggest that you begin by typing:
-
-  cd AwesomeProject
-  yarn start
-
-   
+NPM - Comandos para iniciar o APP:
+- Para IOS: react-native run-ios para 
+- Para Android: react-native run-android
+  
 ---------------------------------------------------------------------------------
 Comandos ADB
 - adb devices - lista os aparelhos que estão sendo reconhecidos
