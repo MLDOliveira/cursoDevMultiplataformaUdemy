@@ -10,6 +10,7 @@ export default props => (
             style={styles.campo}
             placeholder='Resultado...'
             editable={false}
+            value={props.resultado}
         />
     </View>
 );
