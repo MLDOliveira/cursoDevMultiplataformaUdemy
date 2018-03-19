@@ -23,6 +23,8 @@ Passos de instalação:
 - Instalando Axios | npm install --save axios
 - Durante o curso deve-se utilizar a versão do react-native 0.44, - react-native init --version="0.44.0" <nome_do_app> 
 - Instalando Router Flux - npm install --save react-native-router-flux@3.38.0
+- Instalando Redux - npm install --save redux
+- Instalando provider do Redux - npm install --save react-redux
 
 ---------------------------------------------------------------------------------
 NPM - Comandos para iniciar o APP:
