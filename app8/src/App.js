@@ -11,21 +11,18 @@ class App extends Component {
 
     componentWillMount() {
 
-        // Initialize Firebase
-        var config = {
-            apiKey: "AIzaSyBqPktUmI3Tf4x5LKXNMs-7yEBDIlG2jXs",
-            authDomain: "whatsapp-clone-49a4f.firebaseapp.com",
-            databaseURL: "https://whatsapp-clone-49a4f.firebaseio.com",
-            projectId: "whatsapp-clone-49a4f",
-            storageBucket: "whatsapp-clone-49a4f.appspot.com",
-            messagingSenderId: "523522749031"
-        };
-        firebase.initializeApp(config)
-
+        firebase.initializeApp({
+            apiKey: "AIzaSyDzaAtP3pS2EHo0rMxSvM8RGvUNlIJ9itw",
+            authDomain: "whatsapp-clone-a1774.firebaseapp.com",
+            databaseURL: "https://whatsapp-clone-a1774.firebaseio.com",
+            projectId: "whatsapp-clone-a1774",
+            storageBucket: "whatsapp-clone-a1774.appspot.com",
+            messagingSenderId: "882014132004"
+        });
     }
 
-    render(){
-        return(
+    render() {
+        return (
             <Provider store={createStore(reducers, {}, applyMiddleware(ReduxThunk))}>
                 <Routes />
             </Provider>
